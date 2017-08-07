@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Resume of Sean Farber">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP page</title>
+  </head>
+  <body>
+    <!-- Script 1.2 - first.php -->
+    <p>This is standard HTML.</p>
+
+    <?php
+    echo 'This was generated using PHP!';
+    ?>
+
+    <?php
+   $first_name = 'Sean';
+   echo '<h2>PHP Notes</h2>
+    <p>Variable names must start with a $ <br>
+       Variable names <em>are</em> case sensitive.<br>
+       A variable can be printed using double quotes<br>
+      &nbsp ex. echo "Hello $user";<br>
+      <p>You are viewing this page using:<b> $first_name </b></p>';
+    ?>
+  </body>
+  </html>
